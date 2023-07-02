@@ -1,6 +1,6 @@
 public class PGStudent extends Student{
     private String specialization;
-    private String UGDegree;
+    private final String UGDegree;
     
  
    public PGStudent (String USN,String name,String specialization,String UGDegree){
