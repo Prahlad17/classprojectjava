@@ -18,7 +18,7 @@ public class PGStudent extends Student{
     return UGDegree;
    }
    public void setUGDegree(String UGDegree){
-    this.UGDegree=UGDegree;
+    System.out.println("You are not allowed to change the UG Degree once it's set");
    }
     
 }
