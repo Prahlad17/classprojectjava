@@ -14,7 +14,7 @@ public class PGStudent extends Student{
    public void setSpecialization(String specialization){
     this.specialization=specialization;
    }
-   public String c(){
+   public String getUGDegree(){
     return UGDegree;
    }
    public void setUGDegree(String UGDegree){
