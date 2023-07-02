@@ -8,7 +8,7 @@ public class StudentUniversity {
         Student[] stud2= new PGStudent[10];
         
         System.out.println("Data inputs for the UG Students");
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 10; i++) {
             String USN=in.nextLine();
             String Name=in.nextLine();
             int semester=in1.nextInt();
@@ -17,7 +17,7 @@ public class StudentUniversity {
            stud1[i]=new UGStudent(USN,Name,semester,branch);
         }
         System.out.println("Data inputs for the PG Students");
-        for (int i = 0; i < 1; i++) {
+        for (int i = 0; i < 10; i++) {
             String USN=in.nextLine();
             String Name=in.nextLine();
             String specialization=in.nextLine();
