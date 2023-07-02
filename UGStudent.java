@@ -1,4 +1,4 @@
-import java.util.Scanner;
+
 public class UGStudent extends Student {
     private int semester;
     private String branch;
